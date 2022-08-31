@@ -1,0 +1,8 @@
+
+replicaCount: 1
+image: "nginx:1.21-alpine"
+
+service:
+  name: 
+  internalPort: 80
+  externalPort: 80
